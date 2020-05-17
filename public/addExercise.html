@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Workout Tracker</title>
+</head>
+<script src="frontend/addexercise.js" type ="textjavascript"></script>
+<body>
+  
+  <div class="jumbotron"><h1>Workout Tracker</h1>
+    <hr>
+      <a href="/workout" class="btn btn-primary btn-lg">
+        <span class="fa fa-eye"></span> addworkout</a>
+      <a href="/exercises" class="btn btn-primary btn-lg">
+        <span class="fa fa-th-list"></span> addexercise</a>
+  
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Add exercise for the workout</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <form>
+                <div class="form-group">
+                    <label for="exercise-name">Name</label>
+                    <input type="text" class="form-control" id="exercise-name">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-type">Type</label>
+                    <input type="text" class="form-control" id="exercise-type">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-weight">Weight</label>
+                    <input type="text" class="form-control" id="exercise-weight">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-sets">Sets</label>
+                    <input type="text" class="form-control" id="exercise-sets">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-reps">Reps</label>
+                    <input type="text" class="form-control" id="exercise-reps">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-duration">Duration</label>
+                    <input type="text" class="form-control" id="exercise-duration">
+                </div>
+                <div class="form-group">
+                    <label for="exercise-distance">Distance</label>
+                    <input type="text" class="form-control" id="exercise-distance">
+                </div>
+                <button type="submit" class="btn btn-primary " id="add-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+</body>
+</html>
